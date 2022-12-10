@@ -1,54 +1,51 @@
-body{
-    background-color:azure;
-}
 .container {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 15px;
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 15px;
 }
 .contacts{
-    display: flex;
-    align-items:flex-start ;
-    height: 100%;
-    padding: 40px 0;
-    border-top: 2px solid gray;
-    border-bottom: 2px solid gray;
-    }
+	display: flex;
+	align-items:flex-start ;
+	height: 100%;
+	padding: 40px 0;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	}
 p{
-    margin: 5px;
+	margin: 5px;
 }
 .title{
-    margin-top: 0px;
-    text-align: center;
+	margin-top: 0px;
+	text-align: center;
 }
 .list{
-    margin-top: 0;
+	margin-top: 0;
 }
 .contacts-item{
-    width: 25%;
-    display: flex;
-    justify-content: center;
+	width: 25%;
+	display: flex;
+	justify-content: center;
 }
 h1,h2{
-    text-align: center;
+	text-align: center;
 }
 h2{
-    margin: 0;
+	margin: 0;
 }
 .About-Me{
-    padding: 40px 0;
-    border-bottom: 2px solid gray;
-    margin-bottom: 40px;
+	padding: 40px 0;
+	border-bottom: 2px solid gray;
+	margin-bottom: 40px;
 }
 .experience-list{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    text-align: center;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	text-align: center;
 }
 .experience-item{
-    width: 33.3%;
+	width: 33.3%;
 }
 b{
-    font-size: 24px;
+	font-size: 24px;
 }
