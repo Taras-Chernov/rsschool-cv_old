@@ -1,5 +1,5 @@
 body {
-	background-color: bdc3c7;
+	background-color: #bdc3c7;
 }
 ul {
 	padding: 0 15px;
@@ -34,55 +34,12 @@ ul {
 }
 .nav-item:hover {
 	background: #2C3E50;
+	transition: 1.5s;
 }
 .nav-link:hover {
 	background: #2C3E50;
 	cursor: pointer;
 }
-
-/*.contacts{
-	display: flex;
-	align-items:flex-start ;
-	height: 100%;
-	padding: 40px 0;
-	border-top: 2px solid gray;
-	border-bottom: 2px solid gray;
-	}
-p{
-	margin: 5px;
+.img-avatar {
+	border-radius: 60px;
 }
-.title{
-	margin-top: 0px;
-	text-align: center;
-}
-.list{
-	margin-top: 0;
-}
-.contacts-item{
-	width: 25%;
-	display: flex;
-	justify-content: center;
-}
-h1,h2{
-	text-align: center;
-}
-h2{
-	margin: 0;
-}
-.About-Me{
-	padding: 40px 0;
-	border-bottom: 2px solid gray;
-	margin-bottom: 40px;
-}
-.experience-list{
-	display: flex;
-	align-items: center;
-	list-style: none;
-	text-align: center;
-}
-.experience-item{
-	width: 33.3%;
-}
-b{
-	font-size: 24px;
-}*/
