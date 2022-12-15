@@ -3,11 +3,6 @@ body {
 	background-color: #cdd4da;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-ul {
-	padding: 0 15px;
-	list-style: none;
-	font-size: 18px;
-}
 .container {
 	max-width: 1080px;
 	margin: 0 auto;
@@ -28,6 +23,9 @@ ul {
 .nav-list {
 	display: flex;
 	margin: auto;
+	padding: 0 15px;
+	list-style: none;
+	font-size: 18px;
 }
 .nav-item {
 	color: #ffffff;
@@ -41,13 +39,11 @@ ul {
 }
 .nav-item:hover {
 	background: #2C3E50;
-	transition: 1.5s;
 }
 .nav-link:hover {
 	background: #2C3E50;
 	cursor: pointer;
 }
-/**section-profile**/
 .section-profile-avatar {
 	width: 200px;
 	border-radius: 180px;
@@ -83,7 +79,6 @@ ul {
 	text-transform: uppercase;
 	color: #ffffff;
 }
-/** end section-profile**/
 .section-conteiner {
 	display: flex;
 	flex-wrap: wrap;
@@ -101,6 +96,7 @@ ul {
 	padding-left: 15px;
 	font-style: italic;
 	font-size: 18px;
+	list-style: none;
 }
 .section-contacts-title{
 	margin-right: 10px;
@@ -117,11 +113,58 @@ ul {
 	width: 24px;
 	height: 24px;
 }
-.footer-conteiner {
+.section-experience{
 	display: flex;
-    justify-content: space-between;
+}
+.section-list{
+	padding: 0;
+}
+.section-item {
+	position: relative;
+	margin-bottom: 0px;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	padding-left: 30px;
+	list-style: none;
+}
+.section-item::before {
+	content: "";
+	position: absolute;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	background-image: url("../assets/img/checkbox.svg");
+}
+.section-experience-description {
+	width: 50%;
+}
+pre {
+	padding: 0;
+	margin: 0;
+}
+.footer {
 	height: 50px;
 	background-color:#1E262D;
 }
+.footer-conteiner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	color: #ffffff;
+}
+.footer-item {
+	width: 40%;
+}
+.rsschool-logo {
+	height: 10px;
+}
+.footer-link {
+	text-decoration: none;
+}
+.footer-year {
+	margin-right: 20px;
+}
+
 
 
