@@ -1,7 +1,7 @@
 body {
 	box-sizing: border-box;
-	background-color: #cdd4da;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #cdd4da;
 }
 .container {
 	max-width: 1440px;
@@ -58,9 +58,9 @@ body {
 }
 .section-profile-title {
 	position: relative;
-	text-align: center;
 	padding-top: 15px;
 	margin-bottom: 60px;
+	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 10px;
 	color: #ffffff;
@@ -134,7 +134,7 @@ body {
 	left: 2px;
 	width: 18px;
 	height: 18px;
-	background-image: url("../assets/img/checkbox.svg");
+	background-image: url("../assets/icon/checkbox.svg");
 }
 .section-experience-description {
 	width: 50%;
@@ -143,12 +143,15 @@ pre {
 	padding: 0;
 	margin: 0;
 }
+.courses-link {
+	color: #000000;
+}
 .footer {
 	display: flex;
 	align-items: center;
-	background-color:#1E262D;
 	height: 80px;
 	padding: 0 50px;
+	background-color:#1E262D;
 }
 .footer-container {
 	display: flex;
@@ -162,7 +165,6 @@ pre {
 }
 .footer-link {
 	text-transform: uppercase;
-	text-decoration: none;
 	color: #ffffff;
 }
 .footer-year {
