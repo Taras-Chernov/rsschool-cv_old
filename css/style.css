@@ -1,51 +1,172 @@
+body {
+	box-sizing: border-box;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: #cdd4da;
+}
 .container {
-	max-width: 1080px;
+	max-width: 1440px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
-.contacts{
+.title {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.header-conteiner {
 	display: flex;
-	align-items:flex-start ;
-	height: 100%;
-	padding: 40px 0;
-	border-top: 2px solid gray;
-	border-bottom: 2px solid gray;
-	}
-p{
-	margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+	height: 50px;
+	background-color:#1E262D;
 }
-.title{
-	margin-top: 0px;
-	text-align: center;
-}
-.list{
-	margin-top: 0;
-}
-.contacts-item{
-	width: 25%;
+.nav-list {
 	display: flex;
-	justify-content: center;
+	margin: auto;
+	padding: 0 15px;
+	list-style: none;
+	font-size: 18px;
 }
-h1,h2{
+.nav-item {
+	text-transform: uppercase;
+}
+.nav-link {
+	padding: 15px 10px;
+	text-decoration: none;
+	color: #ffffff;
+}
+.nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+.nav-item:hover {
+	background: #2C3E50;
+}
+.nav-link:hover {
+	background: #2C3E50;
+	cursor: pointer;
+}
+.section-profile-avatar {
+	width: 200px;
+	border-radius: 180px;
+}
+.section-profile {
+	display: flex;
+	justify-content: space-between;
+	padding: 35px 85px;
+	margin-bottom: 50px;
+	border-bottom: 10px solid #ffffff;
+}
+.section-profile-title {
+	position: relative;
+	padding-top: 15px;
+	margin-bottom: 60px;
 	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: #ffffff;
 }
-h2{
+.section-profile-title::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	bottom: -25px;
+	margin-left: -105px;
+	width: 200px;
+	height: 4px;
+	background-color: #ffffff;
+}
+.section-profile-profession {
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.section-conteiner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.section {
+	padding: 10px;
+	padding-bottom: 25px;
+	width: calc(48% - 20px);
+	border-bottom: 2px solid #ffffff;
+}
+.section-contacts-item {
+	position: relative;
+	padding-bottom: 18px;
+	padding-left: 15px;
+	font-style: italic;
+	font-size: 18px;
+	list-style: none;
+}
+.section-contacts-title{
+	margin-right: 10px;
+	font-size: 15px;
+	font-weight: 700;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.section-contacts-img {
+	position: absolute;
+	top: -3px;
+	left: -15px;
+	width: 24px;
+	height: 24px;
+}
+.section-experience{
+	display: flex;
+}
+.section-list{
+	padding: 0;
+}
+.section-item {
+	position: relative;
+	margin-bottom: 0px;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	padding-left: 30px;
+	list-style: none;
+}
+.section-item::before {
+	content: "";
+	position: absolute;
+	left: 2px;
+	width: 18px;
+	height: 18px;
+	background-image: url("../assets/icon/checkbox.svg");
+}
+.section-experience-description {
+	width: 50%;
+}
+pre {
+	padding: 0;
 	margin: 0;
 }
-.About-Me{
-	padding: 40px 0;
-	border-bottom: 2px solid gray;
-	margin-bottom: 40px;
+.courses-link {
+	color: #000000;
 }
-.experience-list{
+.footer {
 	display: flex;
 	align-items: center;
-	list-style: none;
-	text-align: center;
+	height: 80px;
+	padding: 0 50px;
+	background-color:#1E262D;
 }
-.experience-item{
-	width: 33.3%;
+.footer-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	color: #ffffff;
 }
-b{
-	font-size: 24px;
+.rsschool-logo {
+	height: 50px;
+}
+.footer-link {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.footer-year {
+	margin-right: 20px;
 }
