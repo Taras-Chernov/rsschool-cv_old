@@ -143,8 +143,35 @@ pre {
 	padding: 0;
 	margin: 0;
 }
-.courses-link {
+.link {
 	color: #000000;
+}
+.section-project {
+
+}
+.section-project-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #ffffff;
+}
+.section-project-item {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 25px;
+	width: calc(50%-20);
+}
+.section-project-link {
+	margin-top: 25px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.section-project-img{
+	max-height: 500px;
+	border-radius: 25px;
 }
 .footer {
 	display: flex;
