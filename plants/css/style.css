@@ -135,6 +135,7 @@ h3 {
 .section-service {
     display: block;
     padding-top: 40px;
+    padding-bottom: 121px;
     background: #EDF2EC;
 }
 .section-service-header {
@@ -152,7 +153,7 @@ h3 {
     line-height: 52px;
     color: #499A18;
 }
-.section-service-button {
+.button {
     width: 161px;
     padding: 12px 0;
     border: 1px solid #E06733;
@@ -166,7 +167,7 @@ h3 {
     line-height: 26px;
     color: #E06733;
 }
-.section-service-button:hover {
+.button:hover {
     background: #E06733;
     border: 1px solid #E06733;
     border-radius: 5px;
@@ -215,3 +216,143 @@ h3 {
     color: #717171;
 }
 /*end section-service*/
+/*start section-prices*/
+.setcion-prices {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-bottom: 115px;
+    background: #FFFFFF;
+}
+.setcion-prices-chenge {
+    display: flex;
+    flex-direction: column;
+}
+.setcion-prices-chenge-title {
+    padding-top: 40px;
+    margin-bottom: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+.setcion-prices-block{
+    display: flex;
+    flex-direction: column;
+    max-height: 282px;
+    padding: 34px 41px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+}
+.setcion-prices-chenge-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+}
+.setcion-prices-chenge-details:not(:last-child) {
+    margin-bottom: 32px;
+}
+.setcion-prices-chenge-summary {
+    display: flex;
+    margin-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+.setcion-prices-chenge-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background: #D9D9D9;
+    margin-right: 40px;
+    border-radius: 180px;
+}
+.setcion-prices-chenge-img {
+    width: 10px;
+    height: 10px;
+}
+.setcion-prices-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.setcion-prices-contact-img {
+    height: 175px;
+}
+.setcion-prices-contact-button {
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+.setcion-prices-contact-description {
+    margin-bottom: 38px;
+    max-width: 452px;
+    text-align: right;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.setcion-prices-description-marker {
+    color: #499A18;
+}
+/*end section-prices*/
+/*start footer*/
+.section-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    background-color: #ffffff;
+}
+.section-footer-git {
+font-family: "Inter";
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+}
+.section-footer-git-symbol {
+    padding-right: 20px;
+}
+.section-footer-git-year {
+    padding-right: 20px;
+}
+.section-footer-git-link {
+    text-decoration: none;
+    color: #000000;
+}
+.section-footer-rs-link {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+}
+.section-footer-social-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.section-footer-social-item:not(:last-child) {
+    margin-right: 30px;
+}
+.section-footer-social-img {
+    max-height: 26px;
+}
+/*end footer*/
