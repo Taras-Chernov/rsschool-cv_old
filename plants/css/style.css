@@ -280,8 +280,7 @@ h3 {
     border-radius: 180px;
 }
 .setcion-prices-chenge-img {
-    width: 10px;
-    height: 10px;
+    height: 4px;
 }
 .setcion-prices-contact {
     display: flex;
@@ -310,6 +309,57 @@ h3 {
     color: #499A18;
 }
 /*end section-prices*/
+/*start section contacts*/
+.section-contacts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 53px;
+    background: #EDF2EC;
+}
+.section-contacts-title {
+    margin-top: 7px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+.section-contacts-chenge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 95px;
+    width: 450px;
+    height: 50px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+}
+.section-contacts-chenge-summary {
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: #717171;
+}
+.section-contacts-chenge-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background: #D9D9D9;
+    margin-right: 40px;
+    border-radius: 180px;
+}
+.section-contacts-chenge-img {
+    height: 4px;
+}
+/*end section contacts*/
 /*start footer*/
 .section-footer {
     display: flex;
