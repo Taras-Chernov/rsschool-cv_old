@@ -17,6 +17,10 @@ h2,
 h3 {
     margin: 0;
 }
+img {
+    max-width:100%;
+    height:auto;
+}
 .section {
     display: flex;
     justify-content: space-between;
@@ -76,7 +80,10 @@ h3 {
     background: #EDF2EC;
 }
 .section-welcome-left {
-    margin-right: 225px;
+    max-width: 448px;
+}
+.section-welcome-right {
+    max-width: 549px;
 }
 .section-welcome-greeting {
     margin-top: 0;
