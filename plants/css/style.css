@@ -1,5 +1,9 @@
+html {
+    scroll-behavior: smooth;
+  }
 p {
     margin: 0;
+    padding: 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -15,6 +19,7 @@ body {
 h1,
 h2,
 h3 {
+    padding: 0;
     margin: 0;
 }
 img {
@@ -25,12 +30,13 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 108px;
+    padding: 0 110px;
 }
 /*start header*/
 .header-container {
     height: 134px;
     background: #EDF2EC;
+    padding-bottom: 60px;
 }
 .logo-container {
     position: relative;
@@ -52,21 +58,22 @@ img {
 }
 .header-navigation-list {
     display: flex;
+    flex-wrap: nowrap;
 }
 .header-navigation-item {
     list-style: none;
     font-family: 'Inika';
 }
 .header-navigation-item:not(:last-child) {
-    padding-right: 46px;
+    padding-right: 47px;
 }
 .header-navigation-link {
     text-decoration: none;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 50px;
     color: #010201;
+    transition: 1s;
 }
 .header-navigation-link:hover {
     font-weight: 700;
@@ -76,18 +83,17 @@ img {
 
 /*start section-welcome*/
 .section-welcome {
-    padding: 0 108px 62px 108px;
     background: #EDF2EC;
+    padding-bottom: 55px;
 }
 .section-welcome-left {
-    max-width: 448px;
+    max-width: 450px;
 }
 .section-welcome-right {
-    max-width: 549px;
+    max-width: 548px;
 }
 .section-welcome-greeting {
-    margin-top: 0;
-    margin-bottom: 42px;
+    margin-bottom: 45px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -98,8 +104,11 @@ img {
 .section-welcome-greeting-green {
     color: #499A18;
 }
+.section-welcome-description {
+    margin-bottom: 45px;
+}
 .section-welcome-button {
-    padding: 14px 27px;
+    padding: 10px 25px;
     border: 2px solid #E06733;
     border-radius: 10px;
     font-family: 'Inter';
@@ -110,18 +119,23 @@ img {
     color: #000000;
     text-decoration: none;
 }
-.section-welcome-description {
-    margin-bottom: 62px;
+.section-welcome-button:hover {
+    background: #E06733;
+    border: 2px solid #E06733;
+    border-radius: 5px;
+    color: #FFFFFF;
+    transition: 1s;
 }
 /*end section-welcome*/
 /*start section-about-us*/
 .section-about-us {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 95px;
+    padding-bottom: 90px;
     background: #FFFFFF;
 }
 .section-about-us-title {
     max-width: 463px;
+    margin-bottom: 40px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
@@ -142,7 +156,7 @@ img {
 .section-service {
     display: block;
     padding-top: 40px;
-    padding-bottom: 121px;
+    padding-bottom: 100px;
     background: #EDF2EC;
 }
 .section-service-header {
@@ -173,12 +187,14 @@ img {
     font-size: 20px;
     line-height: 26px;
     color: #E06733;
+    background: #EDF2EC;
 }
 .button:hover {
     background: #E06733;
     border: 1px solid #E06733;
     border-radius: 5px;
     color: #FFFFFF;
+    transition: 1s;
 }
 .section-service-button:not(:last-child) {
     margin-right: 38px;
@@ -195,7 +211,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 55px;
+    margin-top: 58px;
     max-width: 33.3%;
     border: 1px solid #E3E1D5;
     border-radius: 0px 0px 20px 20px;
@@ -205,7 +221,7 @@ img {
     border-radius: 20px 20px 0px 0px;
 }
 .section-service-galery-title {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -229,7 +245,7 @@ img {
     justify-content: space-between;
     align-items: flex-start;
     padding-top: 40px;
-    padding-bottom: 115px;
+    padding-bottom: 120px;
     background: #FFFFFF;
 }
 .setcion-prices-chenge {
@@ -237,7 +253,6 @@ img {
     flex-direction: column;
 }
 .setcion-prices-chenge-title {
-    padding-top: 40px;
     margin-bottom: 60px;
     font-family: 'Inter';
     font-style: normal;
@@ -289,17 +304,10 @@ img {
 .setcion-prices-chenge-img {
     height: 4px;
 }
-.setcion-prices-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-.setcion-prices-contact-img {
-    height: 175px;
-}
 .setcion-prices-contact-button {
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     font-weight: 700;
+    background: #FFFFFF;
 }
 .setcion-prices-contact-description {
     margin-bottom: 38px;
@@ -315,6 +323,14 @@ img {
 .setcion-prices-description-marker {
     color: #499A18;
 }
+.setcion-prices-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.setcion-prices-contact-img {
+    height: 175px;
+}
 /*end section-prices*/
 /*start section contacts*/
 .section-contacts {
@@ -325,7 +341,8 @@ img {
     background: #EDF2EC;
 }
 .section-contacts-title {
-    margin-top: 7px;
+    margin-top: 5px;
+    margin-left: 40px;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
@@ -380,12 +397,13 @@ font-family: "Inter";
 font-weight: 400;
 font-size: 20px;
 line-height: 50px;
+margin-right: 15px;
 }
 .section-footer-git-symbol {
-    padding-right: 20px;
+    padding-right: 15px;
 }
 .section-footer-git-year {
-    padding-right: 20px;
+    padding-right: 15px;
 }
 .section-footer-git-link {
     text-decoration: none;
@@ -407,7 +425,7 @@ line-height: 50px;
     list-style: none;
 }
 .section-footer-social-item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 28px;
 }
 .section-footer-social-img {
     max-height: 26px;
