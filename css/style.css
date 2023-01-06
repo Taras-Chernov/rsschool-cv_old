@@ -199,7 +199,7 @@ img {
     transition: 1s;
 }
 .section-service-button:not(:last-child) {
-    margin-right: 38px;
+    margin-right: 35px;
 }
 .section-service-galery-list {
     justify-content: space-between;
