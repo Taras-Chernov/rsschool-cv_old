@@ -163,6 +163,7 @@ img {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
 }
 .section-service-title {
     max-width: 306px;
@@ -193,6 +194,7 @@ img {
     background: #E06733;
     border: 1px solid #E06733;
     border-radius: 5px;
+    cursor: pointer;
     color: #FFFFFF;
     transition: 1s;
 }
