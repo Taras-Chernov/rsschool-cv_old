@@ -1,5 +1,5 @@
 # Taras Chernov
-![Avatar](/rsschool-cv/img/avatar.jpg)
+![Avatar](/rsschool-cv/assets/img/avatar.jpg)
 
 ## Contacts information
 * **location:** Russia, Saint-Peterburg
